@@ -27,10 +27,15 @@ El proyecto está diseñado con los siguientes componentes:
 Lo que aprenderás:
 
 -Configurar un pipeline con Apache Airflow.
+
 -Transmisión de datos en tiempo real con Apache Kafka.
+
 -Sincronización distribuida con Apache Zookeeper.
+
 -Técnicas de procesamiento de datos con Apache Spark.
+
 -Soluciones de almacenamiento de datos con Cassandra y PostgreSQL.
+
 -Contenerizar toda tu configuración de ingeniería de datos con Docker.
 
 ## Primeros pasos
