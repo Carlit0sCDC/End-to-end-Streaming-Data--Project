@@ -1,0 +1,43 @@
+2024-01-19 15:44:24.071 [info] Log level: Info
+2024-01-19 15:44:24.071 [info] Validating found git in: "git"
+2024-01-19 15:44:24.071 [info] Using git "2.34.1" from "git"
+2024-01-19 15:44:24.071 [info] > git rev-parse --show-toplevel [6ms]
+2024-01-19 15:44:24.071 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-19 15:44:24.071 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-19 15:44:24.071 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-19 15:44:24.130 [info] > git rev-parse --show-toplevel [60ms]
+2024-01-19 15:44:24.130 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-19 15:44:24.161 [info] > git rev-parse --show-toplevel [13ms]
+2024-01-19 15:44:24.161 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-19 15:44:24.174 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-19 15:44:24.174 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-19 15:44:24.653 [info] > git rev-parse --show-toplevel [20ms]
+2024-01-19 15:44:24.653 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-19 15:44:24.703 [info] > git rev-parse --show-toplevel [41ms]
+2024-01-19 15:44:24.703 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-19 15:44:24.717 [info] > git rev-parse --show-toplevel [5ms]
+2024-01-19 15:44:24.717 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-19 15:47:20.399 [info] > git rev-parse --show-toplevel [4ms]
+2024-01-19 15:47:20.399 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-19 15:47:23.255 [info] > git rev-parse --show-toplevel [3ms]
+2024-01-19 15:47:23.255 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-19 15:55:08.653 [info] > git rev-parse --show-toplevel [33ms]
+2024-01-19 15:55:08.655 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-19 16:01:28.703 [info] > git rev-parse --show-toplevel [42ms]
+2024-01-19 16:01:28.705 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-19 16:09:05.272 [info] > git rev-parse --show-toplevel [30ms]
+2024-01-19 16:09:05.274 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-19 16:11:17.063 [info] > git rev-parse --show-toplevel [4ms]
+2024-01-19 16:11:17.076 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-01-19 16:11:17.103 [info] Open repository: /home/carlos
+2024-01-19 16:11:17.130 [info] No remotes found in the git config file.
+2024-01-19 16:11:17.131 [info] > git config --get commit.template [12ms]
+2024-01-19 16:11:17.131 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-01-19 16:11:17.530 [info] > git show --textconv :docker-compose.yml [10ms]
+2024-01-19 16:11:17.531 [info] > git ls-files --stage -- /home/carlos/docker-compose.yml [3ms]
+2024-01-19 16:11:17.772 [info] > git check-ignore -v -z --stdin [2ms]
+2024-01-19 16:11:18.626 [info] > git status -z -uall [1485ms] (cancelled)
+2024-01-19 16:12:10.255 [info] > git config --get commit.template [44466ms]
+2024-01-19 16:12:10.756 [info] No remotes found in the git config file.
+2024-01-19 16:12:11.259 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [536ms]
+2024-01-19 16:12:22.944 [info] > git status -z -uall [11545ms] (cancelled)

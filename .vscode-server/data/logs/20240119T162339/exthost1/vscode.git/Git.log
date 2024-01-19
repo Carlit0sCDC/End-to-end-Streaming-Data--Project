@@ -1,0 +1,41 @@
+2024-01-19 16:23:43.805 [info] Log level: Info
+2024-01-19 16:23:43.805 [info] Validating found git in: "git"
+2024-01-19 16:23:43.805 [info] Using git "2.34.1" from "git"
+2024-01-19 16:23:43.805 [info] > git rev-parse --show-toplevel [129ms]
+2024-01-19 16:23:43.805 [info] > git rev-parse --git-dir --git-common-dir [12ms]
+2024-01-19 16:23:43.805 [info] Open repository: /home/carlos
+2024-01-19 16:23:43.826 [info] > git rev-parse --show-toplevel [6ms]
+2024-01-19 16:23:43.827 [info] > git config --get commit.template [14ms]
+2024-01-19 16:23:43.847 [info] No remotes found in the git config file.
+2024-01-19 16:23:44.269 [info] > git rev-parse --show-toplevel [432ms]
+2024-01-19 16:23:44.296 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [450ms]
+2024-01-19 16:23:44.306 [info] > git rev-parse --show-toplevel [27ms]
+2024-01-19 16:23:44.319 [info] > git rev-parse --show-toplevel [4ms]
+2024-01-19 16:23:44.329 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-19 16:23:44.338 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-19 16:23:44.369 [info] > git show --textconv :docker-compose.yml [18ms]
+2024-01-19 16:23:44.370 [info] > git ls-files --stage -- /home/carlos/docker-compose.yml [8ms]
+2024-01-19 16:23:44.492 [info] > git status -z -uall [189ms] (cancelled)
+2024-01-19 16:23:44.789 [info] > git check-ignore -v -z --stdin [1ms]
+2024-01-19 16:23:48.561 [info] > git config --get commit.template [1ms]
+2024-01-19 16:23:49.514 [info] No remotes found in the git config file.
+2024-01-19 16:23:49.516 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-01-19 16:23:49.766 [info] > git status -z -uall [235ms] (cancelled)
+2024-01-19 16:25:02.477 [info] > git ls-files --stage -- /home/carlos/docker-compose.yml [2ms]
+2024-01-19 16:25:02.489 [info] > git show --textconv :docker-compose.yml [1ms]
+2024-01-19 16:25:11.690 [info] > git ls-files --stage -- /home/carlos/docker-compose.yml [1ms]
+2024-01-19 16:25:11.751 [info] > git show --textconv :docker-compose.yml [0ms]
+2024-01-19 16:25:33.053 [info] > git ls-files --stage -- /home/carlos/docker-compose.yml [1ms]
+2024-01-19 16:25:33.066 [info] > git show --textconv :docker-compose.yml [1ms]
+2024-01-19 16:25:45.874 [info] > git ls-files --stage -- /home/carlos/docker-compose.yml [1ms]
+2024-01-19 16:25:45.930 [info] > git show --textconv :docker-compose.yml [1ms]
+2024-01-19 16:25:53.180 [info] > git ls-files --stage -- /home/carlos/docker-compose.yml [1ms]
+2024-01-19 16:25:53.240 [info] > git show --textconv :docker-compose.yml [1ms]
+2024-01-19 16:25:55.301 [info] > git ls-files --stage -- /home/carlos/docker-compose.yml [1ms]
+2024-01-19 16:25:55.365 [info] > git show --textconv :docker-compose.yml [1ms]
+2024-01-19 16:26:02.775 [info] > git ls-files --stage -- /home/carlos/docker-compose.yml [1ms]
+2024-01-19 16:26:02.787 [info] > git show --textconv :docker-compose.yml [1ms]
+2024-01-19 16:26:09.338 [info] > git ls-files --stage -- /home/carlos/docker-compose.yml [1ms]
+2024-01-19 16:26:09.354 [info] > git show --textconv :docker-compose.yml [2ms]
+2024-01-19 16:26:38.822 [info] > git ls-files --stage -- /home/carlos/docker-compose.yml [1ms]
+2024-01-19 16:26:38.835 [info] > git show --textconv :docker-compose.yml [2ms]

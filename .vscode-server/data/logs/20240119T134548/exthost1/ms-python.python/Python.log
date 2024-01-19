@@ -1,0 +1,43 @@
+2024-01-19 13:53:59.901 [info] Experiment 'pythonRecommendTensorboardExtcf' is active
+2024-01-19 13:53:59.902 [info] Experiment 'pythonREPLSmartSend' is active
+2024-01-19 13:53:59.902 [info] Experiment 'pythonTerminalEnvVarActivationcf' is active
+2024-01-19 13:53:59.902 [info] Experiment 'pythonTestAdapter' is active
+2024-01-19 13:53:59.902 [info] Default formatter is set to null for workspace /home/carlos
+2024-01-19 13:53:59.902 [info] Test server listening.
+2024-01-19 13:54:00.146 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-01-19 13:54:00.234 [info] Python interpreter path: /bin/python3
+2024-01-19 13:54:02.517 [info] Starting Pylance language server.
+2024-01-19 13:57:22.420 [info] Discover tests for workspace name: carlos - uri: /home/carlos/dags/kafka_stream.py
+2024-01-19 14:10:58.570 [info] Discover tests for workspace name: carlos - uri: /home/carlos/dags/kafka_stream.py
+2024-01-19 14:16:48.639 [info] Running installed packages checker:  python /home/carlos/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/installed_check.py /home/carlos/requirements.txt
+2024-01-19 14:16:48.639 [info] > python ./.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/installed_check.py ./requirements.txt
+2024-01-19 14:16:48.655 [error] Error while getting installed packages check result:
+ [Error: spawn python ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+	at onErrorNT (node:internal/child_process:476:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn python',
+  path: 'python',
+  spawnargs: [
+    '/home/carlos/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/installed_check.py',
+    '/home/carlos/requirements.txt'
+  ]
+}
+2024-01-19 14:17:04.768 [info] Running installed packages checker:  python /home/carlos/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/installed_check.py /home/carlos/requirements.txt
+2024-01-19 14:17:04.768 [info] > python ./.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/installed_check.py ./requirements.txt
+2024-01-19 14:17:04.769 [error] Error while getting installed packages check result:
+ [Error: spawn python ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+	at onErrorNT (node:internal/child_process:476:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn python',
+  path: 'python',
+  spawnargs: [
+    '/home/carlos/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/installed_check.py',
+    '/home/carlos/requirements.txt'
+  ]
+}

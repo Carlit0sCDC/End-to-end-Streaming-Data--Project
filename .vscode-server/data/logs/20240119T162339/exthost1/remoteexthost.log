@@ -1,0 +1,16 @@
+2024-01-19 16:23:41.589 [info] Extension host with pid 473 started
+2024-01-19 16:23:41.690 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-01-19 16:23:41.692 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockercompose'
+2024-01-19 16:23:41.693 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-19 16:23:42.321 [info] Lock '/home/carlos/.vscode-server/data/User/workspaceStorage/b2f342de0054ba6dee4431941d86e061/vscode.lock': Lock acquired.
+2024-01-19 16:23:42.556 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-19 16:23:42.605 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2024-01-19 16:23:43.098 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-19 16:23:43.099 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-19 16:23:43.653 [info] Eager extensions activated
+2024-01-19 16:23:43.653 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-19 16:23:43.654 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-19 16:23:43.855 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+2024-01-19 16:23:48.519 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-01-19 16:23:49.739 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-01-19 16:23:55.971 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

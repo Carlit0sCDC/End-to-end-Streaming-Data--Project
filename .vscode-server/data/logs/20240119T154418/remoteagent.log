@@ -1,0 +1,16 @@
+2024-01-19 15:44:18.556 [info] 
+
+
+
+
+2024-01-19 15:44:18.575 [info] Extension host agent started.
+2024-01-19 15:44:18.956 [info] [127.0.0.1][c6103f14][ManagementConnection] New connection established.
+2024-01-19 15:44:19.505 [info] [127.0.0.1][7b94abc7][ExtensionHostConnection] New connection established.
+2024-01-19 15:44:19.519 [info] [127.0.0.1][7b94abc7][ExtensionHostConnection] <541> Launched Extension Host Process.
+2024-01-19 16:12:04.173 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-19 16:15:07.344 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-19 16:20:04.758 [info] [127.0.0.1][c6103f14][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-19 16:20:06.684 [info] [127.0.0.1][7b94abc7][ExtensionHostConnection] <541> Extension Host Process exited with code: 0, signal: null.
+2024-01-19 16:20:06.705 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/carlos/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:177:6079)
+    at process.emit (node:events:513:28)
